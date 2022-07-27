@@ -1,7 +1,9 @@
 # RoboTron Compass UOL - Programa de Bolsas
 ## SPRINT 4 - TECH
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://github.com/phconte/RoboTron_Paulo_Conte_Compass/blob/main/LICENCE) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/pypi/pyversions/p)
+
+
 
 # Sobre o projeto
 
