@@ -1,2 +1,1 @@
-Projeto inicial para estudos Git
-Isso é uma alteração
+## Branch para depositar os códigos dos exercícios dos dias 05 e 07
