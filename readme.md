@@ -11,12 +11,26 @@
 
 
 # Sobre o projeto
-
 Este repositório é utilizado para commit dos exercícios Python da Sprint 04
+
+# Progresso
+## Exercícios dia 05
+- [x] 01
+- [X] 02
+- [X] 03
+- [X] 04
+- [ ] 05
+- [ ] 06
+- [ ] 07
+- [ ] 08
+- [ ] 09
+- [ ] 10
+- [ ] 11
+- [ ] 12
 
 # Tecnologias utilizadas
 ## Back end
-- Python
+- Python 🐍
 
 # Como executar o projeto
 ## Back end
