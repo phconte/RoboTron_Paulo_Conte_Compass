@@ -1,14 +1,19 @@
 # Construa um programa que recebe 20 valores para X e no final apresenta a média aritmética dos valores pares digitados
+
+# Solicita até 20 valores
 print("Informe um total de 20 valores")
 x = [float(input("Número: ")) for i in range(20)]
 
+# Armazena numa lista somente os numeros pares
 pares = []
-for valorPares in x:
-    if valorPares % 2 == 0:
-        pares.append(valorPares)
+for valor_pares in x:
+    if valor_pares % 2 == 0:
+        pares.append(valor_pares)
 
+# Confere se a quantidade de valores na lista não é 0
 if len(pares) == 0:
     print("Nenhum valor par informado!")
+# Apresenta quais os valores pares foram informados, soma esses valores e divide pelo n de valores
 else:
     print("Os valores pares informados são:", pares)
     print("A média aritmética entre eles é:", sum(pares) / len(pares))
