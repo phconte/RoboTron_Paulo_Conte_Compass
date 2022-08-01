@@ -19,4 +19,5 @@ else:
     print("Riscar da lista de compras:", iguais)
 
 
-# Referência para comparar listas https://pt.stackoverflow.com/questions/490489/comparar-duas-listas-em-python-e-retornar-correspond%C3%AAncias
+# Referência para comparar listas:
+# https://pt.stackoverflow.com/questions/490489/comparar-duas-listas-em-python-e-retornar-correspond%C3%AAncias
