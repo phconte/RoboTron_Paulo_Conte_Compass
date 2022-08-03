@@ -4,14 +4,14 @@ import json
 
 
 def retornar_json():
-    with open("JSON1.json", encoding="utf-8") as partida:
-        json_manipulavel = json.load(partida)
+    with open("JSON1.json", encoding="utf-8") as json_normal:
+        json_manipulavel = json.load(json_normal)
         return json_manipulavel
 
 
-json_retornado = retornar_json()
+partida = retornar_json()
 
-campeonato = json_retornado['copa-do-brasil'][0]
+campeonato = partida['copa-do-brasil'][0]
 visitante = campeonato['time_visitante']
 
 time_visitante_id = visitante["time_id"]
