@@ -15,11 +15,11 @@ Este repositório é utilizado para commit dos exercícios Python da Sprint 04
 
 # Progresso exercícios
 
-![Progresso](https://progress-bar.dev/59/?title=Progresso)
+![Progresso](https://progress-bar.dev/66/?title=Progresso)
 
 | **Dia 05** 	| <ul><li>- [x] 01</li> 	| <ul><li>- [x] 02</li> 	| <ul><li>- [x] 03</li> 	| <ul><li>- [x] 04</li> 	| <ul><li>- [x] 05</li> 	| <ul><li>- [x] 06</li> 	| <ul><li>- [x] 07</li> 	| <ul><li>- [x] 08</li> 	| <ul><li>- [x] 09</li> 	| <ul><li>- [x] 10</li> 	| <ul><li>- [x] 11</li> 	| <ul><li>- [x] 12</li> 	|  	|  	|  	|
 |---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
-| **Dia 07** 	| <ul><li>- [x] 01</li> 	| <ul><li>- [x] 02</li> 	| <ul><li>- [x] 03</li> 	| <ul><li>- [x] 04</li> 	| <ul><li>- [ ] 05</li> 	| <ul><li>- [ ] 06</li> 	| <ul><li>- [ ] 07</li> 	| <ul><li>- [ ] 08</li> 	| <ul><li>- [ ] 09</li> 	| <ul><li>- [ ] 10</li> 	| <ul><li>- [ ] 11</li> 	| <ul><li>- [ ] 12</li> 	| <ul><li>- [ ] 13</li> 	| <ul><li>- [ ] 14</li> 	| <ul><li>- [ ] 15</li> 	|
+| **Dia 07** 	| <ul><li>- [x] 01</li> 	| <ul><li>- [x] 02</li> 	| <ul><li>- [x] 03</li> 	| <ul><li>- [x] 04</li> 	| <ul><li>- [x] 05</li> 	| <ul><li>- [x] 06</li> 	| <ul><li>- [ ] 07</li> 	| <ul><li>- [ ] 08</li> 	| <ul><li>- [ ] 09</li> 	| <ul><li>- [ ] 10</li> 	| <ul><li>- [ ] 11</li> 	| <ul><li>- [ ] 12</li> 	| <ul><li>- [ ] 13</li> 	| <ul><li>- [ ] 14</li> 	| <ul><li>- [ ] 15</li> 	|
   
 # Tecnologias utilizadas
 ## Back end
