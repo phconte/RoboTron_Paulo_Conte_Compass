@@ -19,4 +19,5 @@ time_visitante = visitante["nome_popular"]
 time_visitante_sigla = visitante["sigla"]
 time_visitante_escudo = visitante["escudo"]
 
-print('O time visitante é o', time_visitante, 'de ID',time_visitante_id,'sigla', time_visitante_sigla, 'e possui o escudo', time_visitante_escudo)
+print('O time visitante é o', time_visitante, 'de ID', time_visitante_id,
+      'sigla', time_visitante_sigla, 'e possui o escudo', time_visitante_escudo)

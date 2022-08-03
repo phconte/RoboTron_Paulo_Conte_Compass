@@ -1,4 +1,4 @@
-# Do JSON 1 Guarde apenas o Nome do Estádio, o Placar e o Status 
+# Do JSON 1 Guarde apenas o Nome do Estádio, o Placar e o Status
 # do jogo dentro de variáveis e mostre-as
 
 import json
@@ -20,7 +20,8 @@ placar_visitante = campeonato["placar_visitante"]
 nome_estadio = estadio["nome_popular"]
 status = campeonato["status"]
 
-print('O jogo no estádio', nome_estadio, 'está', status, 'e o resultado foi Sto André', placar_mandante, 'x', placar_visitante, 'Criciúma')
+print('O jogo no estádio', nome_estadio, 'está', status,
+      'e o resultado foi Sto André', placar_mandante, 'x', placar_visitante, 'Criciúma')
 
 
 # Referências:
