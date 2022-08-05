@@ -8,4 +8,4 @@ vencedor_93 = (vencedor.loc[vencedor['Year'] == 1993])
 nome_vencedor = pd.DataFrame(vencedor_93, columns=['Name'])
 
 print("O vencedor do Oscar em 1993 foi:")
-print(nome_vencedor)
+print(nome_vencedor.to_string(index=False))
