@@ -2,11 +2,13 @@
 
 import pandas as pd
 
-vencedores = pd.read_csv('CSV.csv', encoding='UTF-8', sep=',')
-vencedor_periodo = (vencedores.loc[63:88])
-print(vencedor_periodo)
+vencedor = pd.read_csv('CSV.csv', encoding='UTF-8', sep=',')
+vencedor_91 = (vencedor.loc[vencedor['Year'] == 1991])
+vencedor_16 = (vencedor.loc[vencedor['Year'] == 2016])
 
-nome_vencedor = pd.DataFrame(vencedor_periodo, columns=['Name'])
+nome_vencedor_91 = pd.DataFrame(vencedor_91, columns=['Name'])
+nome_vencedor_16 = pd.DataFrame(vencedor_16, columns=['Name'])
 
 print("Os vencedores do Oscar entre 1991 e 2016 foram:")
-print(nome_vencedor)
+print(nome_vencedor_91.to_string(index=False))
+print(nome_vencedor_16.to_string(index=False))
