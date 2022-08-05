@@ -2,17 +2,25 @@
 
 import pandas as pd
 
+
 def func2():
-    print('==' * 10)
+    print('==' * 50)
+    print(' ')
 
     Tabela = pd.read_csv('Tabela.csv', encoding='UTF-8', sep=',')
 
-    sb = str(input('Digite o simbolo do elemento desejado: '))
+    sb = str(input(
+        '    Digite o simbolo do elemento desejado, se precisar listar use a opção 3 do menu principal: '))
 
     if Tabela['Simbolo'].str.contains(sb).any():
+        print(' ')
         print(Tabela[Tabela['Simbolo'] == sb])
+        print(' ')
+        
     else:
-        print('Lista não contém elemento')
+        print(' ')
+        print('    Lista não contém elemento!')
+        print(' ')
 
 
 # Referência: lógica booleana e string dentro de um dataframe

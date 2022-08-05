@@ -3,9 +3,9 @@
 # Ex: listar todos os nomes dos elementos na tabela.
 
 def func1():
-    print('==' * 10)
+    print('==' * 50)
 
-    import pandas as pd
+    import pandas as pd    
 
 
     simbolo_csv = pd.read_csv('Tabela.csv', encoding='UTF-8',
@@ -23,47 +23,52 @@ def func1():
 
     opcao = 0
     while opcao != 7:
-        print('''        [ 1 ] Listar Simbolos
-        [ 2 ] Listar Nome
-        [ 3 ] Listar Numero Atomico
-        [ 4 ] Listar Linha
-        [ 5 ] Listar Coluna
-        [ 6 ] Listar Estado Fisico
-        [ 7 ] Retornar Menu Principal''')
-        print('    ====================')
-        opcao = int(input("    O que deseja fazer? "))
+        print('''    
+    [ 1 ] Listar Simbolos
+    [ 2 ] Listar Nome
+    [ 3 ] Listar Numero Atomico
+    [ 4 ] Listar Linha
+    [ 5 ] Listar Coluna
+    [ 6 ] Listar Estado Fisico
+    [ 7 ] Retornar ao Menu Principal
+    ''')
+        print('==' * 50)
+        print(' ')
+        opcao = int(input("    Digite uma das opções: "))
+        print(' ')
         if opcao == 1:
             print(simbolo_csv)
-            print('==' * 10)
+            print('==' * 50)
 
         elif opcao == 2:
             print(Nome_csv)
-            print('==' * 10)
+            print('==' * 50)
 
         elif opcao == 3:
             print(NumeroAtomico_csv)
-            print('==' * 10)
+            print('==' * 50)
 
         elif opcao == 4:
             print(Linha_csv)
-            print('==' * 10)
+            print('==' * 50)
 
         elif opcao == 5:
             print(Coluna_csv)
-            print('==' * 10)
+            print('==' * 50)
 
         elif opcao == 6:
             print(EstadoFisico_csv)
-            print('==' * 10)
+            print('==' * 50)
 
         elif opcao == 7:
-            print('Retornando')
-            print('==' * 10)
-            break
+            print('    Retornando')
+            print(' ')
+            print('==' * 50)
+            print(' ')
 
         else:
-            print('Erro! Digite uma opção válida.')
-            print('==' * 10)
+            print('    Erro, digite uma opção válida!')
+            print('==' * 50)
             
 # Referência: criar menus com loop
 # https://www.youtube.com/watch?v=OBJL5vPj4-E
